@@ -6,22 +6,6 @@
 <html dir="ltr" lang="en">
 <head>
 
-<script>
-
-function addProject(){
-	alert("hi");
-	$.ajax({
-		url:"ProjectModal.jsp",
-		success: function(response){
-			alert("inside success");
-			$(".projectContent").html(response);
-		}
-	
-		
-	});
-}
-
-</script>
 
 
 <meta charset="utf-8">
@@ -370,6 +354,22 @@ legend.legend_border {
 			
 	//	});
 		</script>
+<script>
+
+function addProject(){
+	alert("hi");
+	$.ajax({
+		url:"ProjectModal.jsp",
+		success: function(response){
+			alert("inside success");
+			$(".projectContent").html(response);
+		}
+	
+		
+	});
+}
+
+</script>
 	
 	
 	
